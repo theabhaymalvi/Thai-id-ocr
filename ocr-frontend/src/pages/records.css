@@ -1,0 +1,15 @@
+.record-list {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .record-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  }
+/*   
+  .record-item {
+    border: 2px solid #ccc;
+    padding: 10px;
+  } */

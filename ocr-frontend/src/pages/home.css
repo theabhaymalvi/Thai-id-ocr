@@ -1,0 +1,89 @@
+.id-card-ocr-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 82vh;
+  }
+
+  .container-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .upload-section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ddd;
+  }
+
+  .buttons {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .upload-button {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #60C2FF;
+    border: 0px;
+    font-weight: 600;
+  }
+
+  .detect-button {
+    color: #60C2FF;
+    background-color: #fff;
+    padding: 8px 16px;
+    border: 2px solid #60C2FF;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+  
+  .image-preview {
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: #F4F4F4;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .results-section {
+    width: 48%;
+    display: flex;
+    flex-direction: column; 
+    border: 3px solid #ddd;
+  }
+
+  .results {
+    background-color: #F4F4F4;
+    flex-grow: 1;
+  }
+  
+  .results-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 40px 80px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+
+  .success {
+    color: green;
+  }
+
+  .fail {
+    color: red;
+  }
+  
